@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\DevAtlas.Core.Application.UseCases\DevAtlas.Core.Application.UseCases.csproj" />
+    <ProjectReference Include="..\DevAtlas.Infrastructure\DevAtlas.Infrastructure.csproj" />
+    <ProjectReference Include="..\DevAtlas.Infrastructure.Email\DevAtlas.Infrastructure.Email.csproj" />
+    <ProjectReference Include="..\DevAtlas.Infrastructure.FileStorage\DevAtlas.Infrastructure.FileStorage.csproj" />
+    <ProjectReference Include="..\DevAtlas.Infrastructure.ExternalServices\DevAtlas.Infrastructure.ExternalServices.csproj" />
+    <ProjectReference Include="..\DevAtlas.Infrastructure.Messaging\DevAtlas.Infrastructure.Messaging.csproj" />
+    <ProjectReference Include="..\DevAtlas.Persistence\DevAtlas.Persistence.csproj" />
+    <ProjectReference Include="..\DevAtlas.Persistence.Configurations\DevAtlas.Persistence.Configurations.csproj" />
+    <ProjectReference Include="..\DevAtlas.Persistence.Repositories\DevAtlas.Persistence.Repositories.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>

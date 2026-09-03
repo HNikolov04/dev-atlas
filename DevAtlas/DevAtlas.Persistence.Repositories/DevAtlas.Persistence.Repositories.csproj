@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\DevAtlas.Persistence\DevAtlas.Persistence.csproj" />
+    <ProjectReference Include="..\DevAtlas.Core.Domain.Entities\DevAtlas.Core.Domain.Entities.csproj" />
+    <ProjectReference Include="..\DevAtlas.Core.Domain.Abstractions\DevAtlas.Core.Domain.Abstractions.csproj" />
+    <ProjectReference Include="..\DevAtlas.Core.Application.Abstractions\DevAtlas.Core.Application.Abstractions.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>

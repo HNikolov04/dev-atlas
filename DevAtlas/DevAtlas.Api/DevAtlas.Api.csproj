@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUi" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DevAtlas.Core.Application.Models\DevAtlas.Core.Application.Models.csproj" />
+    <ProjectReference Include="..\DevAtlas.Core.Application.UseCases\DevAtlas.Core.Application.UseCases.csproj" />
+    <ProjectReference Include="..\DevAtlas.DependencyResolution\DevAtlas.DependencyResolution.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+</Project>

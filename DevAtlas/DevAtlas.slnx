@@ -1,0 +1,72 @@
+<Solution>
+  <Folder Name="/00. Solution Items/">
+    <File Path=".editorconfig" />
+    <File Path="Directory.Build.props" />
+    <File Path="Directory.Packages.props" />
+    <File Path="global.json" />
+    <File Path="NuGet.config" />
+    <File Path="stylecop.json" />
+  </Folder>
+  <Folder Name="/01. API/">
+    <Project Path="DevAtlas.Api/DevAtlas.Api.csproj" />
+  </Folder>
+  <Folder Name="/02. Core/" />
+  <Folder Name="/02. Core/01. Domain/">
+    <Project Path="DevAtlas.Core.Domain.Abstractions/DevAtlas.Core.Domain.Abstractions.csproj" />
+    <Project Path="DevAtlas.Core.Domain.Entities/DevAtlas.Core.Domain.Entities.csproj" />
+    <Project Path="DevAtlas.Core.Domain.Events/DevAtlas.Core.Domain.Events.csproj" />
+    <Project Path="DevAtlas.Core.Domain.Services/DevAtlas.Core.Domain.Services.csproj" />
+  </Folder>
+  <Folder Name="/02. Core/02. Application/">
+    <Project Path="DevAtlas.Core.Application.Abstractions/DevAtlas.Core.Application.Abstractions.csproj" />
+    <Project Path="DevAtlas.Core.Application.Models/DevAtlas.Core.Application.Models.csproj" />
+    <Project Path="DevAtlas.Core.Application.Services/DevAtlas.Core.Application.Services.csproj" />
+    <Project Path="DevAtlas.Core.Application.UseCases/DevAtlas.Core.Application.UseCases.csproj" />
+  </Folder>
+  <Folder Name="/03. Infrastructure/">
+    <Project Path="DevAtlas.Infrastructure.Email/DevAtlas.Infrastructure.Email.csproj" />
+    <Project Path="DevAtlas.Infrastructure.ExternalServices/DevAtlas.Infrastructure.ExternalServices.csproj" />
+    <Project Path="DevAtlas.Infrastructure.FileStorage/DevAtlas.Infrastructure.FileStorage.csproj" />
+    <Project Path="DevAtlas.Infrastructure.Messaging/DevAtlas.Infrastructure.Messaging.csproj" />
+    <Project Path="DevAtlas.Infrastructure/DevAtlas.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/04. Persistence/">
+    <Project Path="DevAtlas.Persistence.Configurations/DevAtlas.Persistence.Configurations.csproj" />
+    <Project Path="DevAtlas.Persistence.Migrations/DevAtlas.Persistence.Migrations.csproj" />
+    <Project Path="DevAtlas.Persistence.Repositories/DevAtlas.Persistence.Repositories.csproj" />
+    <Project Path="DevAtlas.Persistence/DevAtlas.Persistence.csproj" />
+  </Folder>
+  <Folder Name="/05. Dependency Resolution/">
+    <Project Path="DevAtlas.DependencyResolution/DevAtlas.DependencyResolution.csproj" />
+  </Folder>
+  <Folder Name="/06. Common/">
+    <Project Path="DevAtlas.Common/DevAtlas.Common.csproj" />
+  </Folder>
+  <Folder Name="/07. Jobs/">
+    <Project Path="DevAtlas.Jobs/DevAtlas.Jobs.csproj" />
+  </Folder>
+  <Folder Name="/08. Tests/" />
+  <Folder Name="/08. Tests/01. Unit/">
+    <Project Path="DevAtlas.Core.Application.UnitTests/DevAtlas.Core.Application.UnitTests.csproj" />
+    <Project Path="DevAtlas.Core.Domain.UnitTests/DevAtlas.Core.Domain.UnitTests.csproj" />
+    <Project Path="DevAtlas.Infrastructure.UnitTests/DevAtlas.Infrastructure.UnitTests.csproj" />
+    <Project Path="DevAtlas.Persistence.UnitTests/DevAtlas.Persistence.UnitTests.csproj" />
+  </Folder>
+  <Folder Name="/08. Tests/02. Integration/">
+    <Project Path="DevAtlas.Api.IntegrationTests/DevAtlas.Api.IntegrationTests.csproj" />
+    <Project Path="DevAtlas.Persistence.IntegrationTests/DevAtlas.Persistence.IntegrationTests.csproj" />
+  </Folder>
+  <Folder Name="/08. Tests/03. Functional/">
+    <Project Path="DevAtlas.Api.FunctionalTests/DevAtlas.Api.FunctionalTests.csproj" />
+  </Folder>
+  <Folder Name="/08. Tests/04. Architecture/">
+    <Project Path="DevAtlas.ArchitectureTests/DevAtlas.ArchitectureTests.csproj" />
+  </Folder>
+  <Folder Name="/08. Tests/05. End To End/">
+    <Project Path="DevAtlas.EndToEndTests/DevAtlas.EndToEndTests.csproj" />
+  </Folder>
+  <Folder Name="/08. Tests/06. Support/">
+    <Project Path="DevAtlas.TestData/DevAtlas.TestData.csproj" />
+    <Project Path="DevAtlas.TestUtilities/DevAtlas.TestUtilities.csproj" />
+  </Folder>
+</Solution>
